@@ -1,3 +1,15 @@
+Ejercicio 1
+
+Inicio
+    variable lad1, lad2, lad3, perimetro
+
+    Leer lad1, lad2, lad3
+    perimetro = lad1 + lad2 + lad3
+    Muestra perimetro
+
+Fin
+
+--------------------------------------------------------------------------------
 Ejercicio 2
 
 Inicio
@@ -42,7 +54,7 @@ Inicio
 
    //Desarrollo
    saludo = "hola" + nombre
-   mostrar saludo
+   Muestra saludo
 Fin
 
 
@@ -74,6 +86,19 @@ Inicio
 Fin
 
 ----------------------------------------------------------------------------
+Ejercicio 8
+
+Inicio 
+    Variable base, altura, perimetro, superficie
+    perimetro = base*2 + altura*2
+    superficie = base*altura
+
+    Muestra "perimetro: " + perimetro
+    Muestra "superficie:" + superficie
+
+Fin
+
+----------------------------------------------------------------------------
 Ejercicio 9
 
 Inicio 
@@ -83,6 +108,19 @@ Inicio
     perimetro = cat1 + cat2 + hip
     superficie = (cat1*cat2)/2
 
+    Muestra "perimetro: " + perimetro
+    Muestra "superficie:" + superficie
+Fin
+
+--------------------------------------------------------------------------------
+Ejercicio 10
+
+Inicio
+    Variable diametro, perimetro, superficie
+    Leer diametro
+    perimetro = 3,1416*diametro
+    superficie = 3,1416*(diametro/2)*(diametro/2)
+    
     Muestra "perimetro: " + perimetro
     Muestra "superficie:" + superficie
 Fin

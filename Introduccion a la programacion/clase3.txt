@@ -1,0 +1,126 @@
+Ejercicio 1
+
+Inicio
+    variable lad1, lad2, lad3, perimetro
+
+    Leer lad1, lad2, lad3
+    perimetro = lad1 + lad2 + lad3
+    Muestra perimetro
+
+Fin
+
+--------------------------------------------------------------------------------
+Ejercicio 2
+
+Inicio
+    variable lado, perimetro
+
+    Leer lado
+    perimetro = lado * 4
+
+    Muestra perimetro
+Fin
+
+---------------------------------------------------------------------------
+Ejercicio 3
+Inicio 
+    variables lad1, lad2, perimetro
+
+    perimetro = lad1*2 + lad2*2
+
+    Muestra perimetro
+Fin
+
+--------------------------------------------------------------------------------
+Ejercicio 4
+
+Inicio
+    variable num1, num2, resto
+
+    Leer num1, num2
+    resto = num1 % num2 
+
+    Muestra resto
+Fin
+
+------------------------------------------------------------------------------
+Ejercicio 5
+Inicio
+   //Cabecera
+   variable nombre, saludo
+
+   // asignar
+   nombre = ingrese su nombre
+
+   //Desarrollo
+   saludo = "hola" + nombre
+   Muestra saludo
+Fin
+
+
+-----------------------------------------------------------------------------
+Ejercicio 6
+Inicio
+
+    Variable nombre, apellido
+
+    Leer nombre, apellido
+    Muestra "Bienvenido " + nombre + " " + apellido + "!"
+
+    Muestra "Bienvenido ${nombre} ${apellido}"
+
+Fin
+
+-----------------------------------------------------------------------------
+Ejercicio 7
+
+Inicio
+    Variable lad, perimetro, superficie
+
+    Leer lad
+    perimetro = lado * 4
+    superficie = lad*lad
+
+    Muestra "EL perimtro del cuadrado es " + perimetro + " y la superficie es " + "superficie"
+
+Fin
+
+----------------------------------------------------------------------------
+Ejercicio 8
+
+Inicio 
+    Variable base, altura, perimetro, superficie
+    perimetro = base*2 + altura*2
+    superficie = base*altura
+
+    Muestra "perimetro: " + perimetro
+    Muestra "superficie:" + superficie
+
+Fin
+
+----------------------------------------------------------------------------
+Ejercicio 9
+
+Inicio 
+    Variable cat1, cat2, hip, perimetro, superficie
+
+    Leer cat1, cat2, hip
+    perimetro = cat1 + cat2 + hip
+    superficie = (cat1*cat2)/2
+
+    Muestra "perimetro: " + perimetro
+    Muestra "superficie:" + superficie
+Fin
+
+--------------------------------------------------------------------------------
+Ejercicio 10
+
+Inicio
+    Variable diametro, perimetro, superficie
+    Leer diametro
+    perimetro = 3,1416*diametro
+    superficie = 3,1416*(diametro/2)*(diametro/2)
+    
+    Muestra "perimetro: " + perimetro
+    Muestra "superficie:" + superficie
+Fin

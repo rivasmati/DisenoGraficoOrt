@@ -12,16 +12,13 @@
         if (numero1 %2 == 0 && numero2 %2 == 0) {
             resultado = numero1 * numero2
             document.write('<p>El resultado de la multiplación es ' + resultado + '</p>')
-            if (resultado %3 == 0) {
-                document.write('<p>Ademas, el resultado es multiplo de 3</p>')
-            }
         }
         else{
             resultado = numero1 + numero2
             document.write('<p>El resultado de la suma es ' + resultado + '</p>')
-            if (resultado %3 == 0) {
-                document.write('<p>Ademas, el resultado es multiplo de 3</p>')
-            }
+        }
+        if (resultado %3 == 0) {
+            document.write('<p>Ademas, el resultado es multiplo de 3</p>')
         }
 
     </script>

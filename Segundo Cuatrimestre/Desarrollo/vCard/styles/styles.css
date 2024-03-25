@@ -9,87 +9,86 @@
     font-size: 18px;
 }
 
-h1, h2{
-    font-family: "Yeseva One", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.vCard{
-    background-color: azure;
-    box-shadow: 5px 5px 10px 5px #000000;
-    max-width: 900px;
-    height: 500px;
-    display: flex;
-    padding: 20px;
 }
 
 h1{
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    margin: 0;
-    font-size: 44px;
-}
-
-h2{
-    font-size: 20px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
+    font-size: 64px;
+
+    margin: 0;
+    position: relative;
+    top: 25px;
+    color: white;
 }
 
-.name{
+article{
+    width: 640px;
+    height: 700px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+    border-radius: 50px;
+
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .intro{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 20%;
-    background-color: aqua;
-    background-size: 100px 200px;
-}
-
-.imagenes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 20%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 33%;
+    border-radius: 50px 50px 0 0;
 }
 
-.container_avatar{
-    background-color: antiquewhite;
-    border: solid 1px black;
-    border-radius: 150px;
-    width: 180px;
-    height: 180px;
-}
-
-.avatar{
+.intro img{
     width: 200px;
     position: relative;
-    left: -12px;
+    top: 15px;
 }
 
-.redes{
+.avatar-container{
+    background-color: rgba(213, 137, 54, 0.9);
+    border-radius: 150px;
+    max-width: 300px;
+    position: relative;
+    top: 40px;
+}
+
+.presentation{
+    column-count: 2;
+    margin: 0 50px;
+    padding: 10PX;
+    position: relative;
+    top: 40px;
+
+    background-color: rgba(164, 66, 0, 0.7);
+    border-radius: 15px;
+}
+
+.presentation p{
+    margin: 0;
+    opacity: 1;
+    color: white;
+}
+
+.media{
+    margin-bottom: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height: 50%;
+    width: 50%;
 }
 
-.redes img{
-    width: 66px;
-}
-
-.presentacion{
-    width: 60%;
-    margin-left: 30px;
+.media img{
+    width: 80px;
 }

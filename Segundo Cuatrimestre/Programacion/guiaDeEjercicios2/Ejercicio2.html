@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+
+        let nombre = prompt('Cual es tu nombre?')
+        let nombreFinal = ""
+        let apellido = prompt('Cual es tu apellido?')
+        let apellidoFinal = ""
+        let edad = +prompt('Cual es tu edad?')
+        let error = false
+
+        for (let i = 0; i < nombre.length; i++) {
+            let validacionNombre = nombre.charAt(i)
+
+            nombreFinal = nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase()
+            
+            if (validacionNombre != NaN) {
+                console.log('Caracter es letra');
+            }else{
+                console.log('Caracter es numero');
+                error = true
+            }
+        }
+
+        for (let i = 0; i < apellido.length; i++) {
+            var validacionApellido = apellido.charAt(i)
+
+            apellidoFinal = apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowerCase()
+            
+            if (validacionApellido != NaN) {
+                console.log('Caracter es letra');
+            }else{
+                console.log('Caracter es numero');
+                error = true
+            }
+        }
+
+        if (edad == NaN) {
+            error = true
+        }
+
+        if (error == true) {
+            alert('Ingresaste un dato mal, volver a ingresar los datos')
+        }else{
+            document.write('<ul><li>Nombre: ' + nombreFinal + '</li><li>Apellido: ' + apellidoFinal + ' </li><li>Edad: ' + edad + '</li></ul>')
+        }
+    </script>
+
+    
+</body>
+</html>

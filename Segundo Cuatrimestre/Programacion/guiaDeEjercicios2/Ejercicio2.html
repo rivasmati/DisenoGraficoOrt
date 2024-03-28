@@ -7,49 +7,29 @@
 </head>
 <body>
     <script>
+        let nombre = prompt("Ingresa tu nombre")
+        let apellido = prompt("Ingresa tu apellido")
+        let edad = +prompt("Ingresa tu edad")
+        let checkNum = false
+        let checkMay = false
 
-        let nombre = prompt('Cual es tu nombre?')
-        let nombreFinal = ""
-        let apellido = prompt('Cual es tu apellido?')
-        let apellidoFinal = ""
-        let edad = +prompt('Cual es tu edad?')
-        let error = false
-
-        for (let i = 0; i < nombre.length; i++) {
-            let validacionNombre = nombre.charAt(i)
-
-            nombreFinal = nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase()
-            
-            if (validacionNombre != NaN) {
-                console.log('Caracter es letra');
-            }else{
-                console.log('Caracter es numero');
-                error = true
-            }
+        if(isNaN(nombre) && isNaN(apellido) && !isNaN(edad)){
+            checkNum = true
         }
 
-        for (let i = 0; i < apellido.length; i++) {
-            var validacionApellido = apellido.charAt(i)
+        let mayNombre = nombre[0].toUpperCase()
+        let mayApellido = apellido[0].toUpperCase()
 
-            apellidoFinal = apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowerCase()
-            
-            if (validacionApellido != NaN) {
-                console.log('Caracter es letra');
-            }else{
-                console.log('Caracter es numero');
-                error = true
-            }
+        if (mayNombre === nombre[0] && mayApellido === apellido[0]) {
+            checkMay = true
         }
 
-        if (edad == NaN) {
-            error = true
+        if (checkMay == true && checkNum == true) {
+            document.write('<ul><li>Nombre: ' + nombre + '</li><li>Apellido: ' + apellido + '</li><li>Edad: ' + edad + '</li></ul>')
+        } else {
+            alert("Datos mal ingresados")
         }
 
-        if (error == true) {
-            alert('Ingresaste un dato mal, volver a ingresar los datos')
-        }else{
-            document.write('<ul><li>Nombre: ' + nombreFinal + '</li><li>Apellido: ' + apellidoFinal + ' </li><li>Edad: ' + edad + '</li></ul>')
-        }
     </script>
 
     

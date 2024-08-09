@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570.97 515.76">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3, .cls-4 {
+        letter-spacing: .02em;
+      }
+
+      .cls-5 {
+        font-family: Haettenschweiler, Haettenschweiler;
+        font-size: 107.57px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-7 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-5" transform="translate(0 91.44)"><tspan class="cls-3"><tspan class="cls-6" x="0" y="0">CUANDO </tspan><tspan class="cls-7" x="289.79" y="0">QUIERAS</tspan></tspan><tspan class="cls-1"><tspan class="cls-6" x="27.49" y="129.09">DONDE </tspan><tspan class="cls-7" x="262.3" y="129.09">QUIERAS</tspan></tspan><tspan class="cls-4" x="38.84" y="258.18">COMO </tspan><tspan class="cls-2" x="250.96" y="258.18">QUIERAS</tspan><tspan class="cls-2" x="17.09" y="387.27">FERNET </tspan><tspan class="cls-4" x="280.15" y="387.27">BRANCA</tspan></text>
+  </g>
+</svg>

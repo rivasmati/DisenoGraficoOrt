@@ -1,0 +1,47 @@
+1. ¿Qué theme se utilizó?
+Para la creación de la página web, se utilizó el tema Blocksy, que es conocido por su flexibilidad y optimización para diversas necesidades de diseño y funcionalidad en WordPress. En particular, se seleccionó una plantilla prediseñada dentro de Blocksy orientada a negocios de barberías, llamada “Barber Shop”. Este tema ofrece una estructura moderna y atractiva, con un diseño adaptable y opciones de personalización avanzada que permiten optimizar la experiencia del usuario en sitios de servicios comerciales, como barberías.
+
+
+
+2.  ¿Qué se tuvo que hacer para configurarlo?
+Para configurar el tema Blocksy y adaptar la plantilla “Barber Shop” para una barbería, seguí los siguientes pasos:
+
+Descarga e Instalación del Tema Blocksy: Lo primero fue acceder al repositorio de temas de WordPress para buscar Blocksy, un tema versátil y optimizado para sitios comerciales. Descargué el tema y lo instalé en el sitio, asegurándome de contar con la última versión.
+
+Activación del Tema: Una vez instalado, activé Blocksy en el panel de control de WordPress. Esto permitió que las opciones de personalización del tema aparecieran en la interfaz de administración, haciendo accesibles todas sus funcionalidades y configuraciones predeterminadas.
+
+Exploración de Plantillas: Después de activar el tema, revisé las plantillas prediseñadas dentro de Blocksy para elegir una adecuada. Opté por la plantilla “Barber Shop”, la cual se ajusta visualmente a un negocio de barbería, con una estética moderna y fácil de navegar para los usuarios.
+
+Importación de la Plantilla: Con Blocksy ya activado, importé la plantilla “Barber Shop” y verifiqué que todos los elementos (colores, tipografías, imágenes, y disposición) estuvieran correctamente aplicados. Esto me ahorró tiempo en diseño inicial y me dio una estructura base para trabajar.
+
+Personalización Visual y Funcional: Utilizando el personalizador visual de Blocksy, comencé a modificar detalles específicos como colores, tipografías, y disposición de los elementos para adaptarlos al estilo deseado y reflejar la identidad de la barbería. Además, ajusté imágenes y elementos de diseño para asegurar que la estética del sitio fuera única y atractiva.
+
+Ajuste de Funcionalidades y Plugins: Finalmente, configuré los plugins sugeridos y otros adicionales necesarios para el sitio (como WooCommerce y Jetpack), lo cual complementó la estructura del sitio con herramientas de comercio electrónico, marketing y optimización.
+
+
+
+3. Listado de plugins utilizados, su finalidad y obligatoriedad
+Para optimizar y completar la funcionalidad del sitio, se emplearon los siguientes plugins:
+
+Blocksy Companion: Este es un complemento oficial del tema Blocksy, esencial para utilizar todas las opciones de personalización visual que ofrece el tema. Proporciona elementos avanzados de construcción y decoración de la página, permitiendo ajustar detalles específicos y mejorar la estética y usabilidad general del sitio.
+
+Google for WooCommerce: Este plugin integra las funcionalidades de Google con WooCommerce, lo que facilita la promoción de productos a través de Google Ads, Google Analytics, y Google Shopping. Esto es especialmente útil para generar visibilidad en buscadores y mejorar las estrategias de comercio electrónico.
+
+Jetpack: Jetpack es un plugin multifuncional que ofrece herramientas de seguridad, rendimiento y marketing. Es una opción completa para mejorar la seguridad del sitio, optimizar su velocidad, y gestionar las estadísticas de tráfico, lo cual es clave para supervisar el éxito y la estabilidad del sitio web.
+
+Kliken: Este plugin se encarga de generar y visualizar estadísticas avanzadas de marketing mediante gráficos y otros recursos visuales. Esto permite analizar el comportamiento de los usuarios y evaluar la efectividad de las campañas de marketing.
+
+MailPoet: Un plugin fundamental para el marketing por correo electrónico, que facilita la creación de una comunidad de usuarios. MailPoet permite gestionar listas de correo y enviar boletines informativos, lo cual es vital para fidelizar clientes y mantenerlos actualizados sobre promociones y novedades.
+
+Stackable: Esta biblioteca de bloques de construcción trabaja en conjunto con Blocksy, añadiendo una variedad de bloques personalizables que enriquecen el contenido visual del sitio. Es muy útil para crear una página visualmente atractiva y estructurada, sin necesidad de codificación adicional.
+
+WooCommerce: WooCommerce es el plugin principal para gestionar la venta de productos y servicios en línea. Es esencial para cualquier página web que quiera procesar ventas, ya que facilita la gestión de productos, el procesamiento de pagos, y el control de inventarios.
+
+WP Reset: Plugin de seguridad que permite restablecer el sitio a su configuración anterior en caso de errores o problemas técnicos graves. Actúa como una red de seguridad para asegurar que cualquier cambio o fallo no afecte de forma permanente al sitio.
+
+WP Super Cache: Este plugin optimiza el rendimiento del sitio generando archivos en caché que se cargan rápidamente para los usuarios. La velocidad del sitio es un factor clave para mejorar la experiencia del usuario y el posicionamiento SEO.
+
+WPForms: WPForms facilita la creación de formularios de contacto, indispensables para permitir que los clientes puedan comunicarse directamente desde el sitio. La implementación de un formulario de contacto mejora la accesibilidad y aumenta la tasa de conversión de visitantes a clientes potenciales.
+
+4.  ¿Qué funciones, además de las requeridas en el anteproyecto, se agregaron al sitio? 
+Las funciones que contiene el sitio son las planificadas en el anteproyecto, y estaban incluidas en el tema de blocksy que se decidió trabajar.

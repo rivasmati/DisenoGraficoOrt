@@ -4,3 +4,6 @@
 [submodule "Primer cuatrimestre/TPFinalDesarrollo"]
 	path = Primer cuatrimestre/TPFinalDesarrollo
 	url = https://github.com/AdrianDBG/TPFinalDesarrollo.git
+[submodule "Tercer Cuatrimestre/SinFiltroCafe"]
+	path = Tercer Cuatrimestre/SinFiltroCafe
+	url = https://github.com/rivasmati/SinFiltroCafe.git

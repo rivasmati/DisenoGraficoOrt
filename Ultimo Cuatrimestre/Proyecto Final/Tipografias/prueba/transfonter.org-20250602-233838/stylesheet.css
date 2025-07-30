@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Slawterhouse Swinggang';
+    src: url('Slawterhouse_Swinggang.woff2') format('woff2'),
+        url('Slawterhouse_Swinggang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
